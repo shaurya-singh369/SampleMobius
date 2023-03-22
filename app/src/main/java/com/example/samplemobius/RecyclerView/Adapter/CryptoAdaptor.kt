@@ -8,14 +8,17 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.samplemobius.R
 
-class ProgrammingAdaptor:ListAdapter<ViewItem,ProgrammingAdaptor.ProgrammingViewHolder>(DiffUtil()) {
+class CryptoAdaptor:ListAdapter<ViewItem,CryptoAdaptor.ProgrammingViewHolder>(DiffUtil()) {
     class ProgrammingViewHolder(view: View): RecyclerView.ViewHolder(view){
-        val name=view.findViewById<TextView>(R.id.name)
-        val count=view.findViewById<TextView>(R.id.count)
+        val currency_symbol=view.findViewById<TextView>(R.id.currency_symbol)
+        val currency_name=view.findViewById<TextView>(R.id.currency_name)
+        val currency_rate=view.findViewById<TextView>(R.id.currency_rate)
+
         fun bind(item:ViewItem){
             //TODO
-            name.text=item.name
-            count.text=item.count.toString()
+            currency_symbol.text=item.symbol
+            currency_name.text=item.name
+            currency_rate.text=item.priceUsd
 
             }
     }
