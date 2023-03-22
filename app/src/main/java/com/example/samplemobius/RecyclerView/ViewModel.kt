@@ -3,6 +3,7 @@ package com.example.samplemobius.RecyclerView
 import android.os.Parcelable
 import com.example.samplemobius.RecyclerView.Adapter.ViewItem
 import kotlinx.android.parcel.Parcelize
+import kotlinx.android.parcel.RawValue
 
 @Parcelize
 data class ViewModel(

@@ -2,7 +2,7 @@
 //
 //import androidx.lifecycle.LiveData
 //
-//import `in`.dunzo.store.api.BaseMobiusVVMProviderFragment
+//import com.example.samplemobius.BaseMobiusVVMProviderFragment
 //import android.os.Bundle
 //import android.os.Parcelable
 //import android.view.LayoutInflater
