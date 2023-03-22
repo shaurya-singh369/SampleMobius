@@ -1,4 +1,4 @@
-package com.example.samplemobius.RecylerView
+package com.example.samplemobius.RecyclerView
 
 
 sealed class ViewEvent

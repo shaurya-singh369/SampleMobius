@@ -1,14 +1,12 @@
-package com.example.samplemobius.RecylerView
+package com.example.samplemobius.RecyclerView
 
 import android.os.Bundle
-import android.os.Handler
-import android.os.Looper
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.samplemobius.BaseActivity
 import com.example.samplemobius.R
-import com.example.samplemobius.RecylerView.Adapter.ProgrammingAdaptor
+import com.example.samplemobius.RecyclerView.Adapter.ProgrammingAdaptor
 
-import com.example.samplemobius.RecylerView.Adapter.ViewItem
+import com.example.samplemobius.RecyclerView.Adapter.ViewItem
 import com.spotify.mobius.Init
 import com.spotify.mobius.Update
 import com.spotify.mobius.functions.Consumer

@@ -12,7 +12,7 @@
         android:theme="@style/Theme.SampleMobius"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".RecyclerView.RecyclerView"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

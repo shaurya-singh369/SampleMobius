@@ -1,7 +1,7 @@
-package com.example.samplemobius.RecylerView
+package com.example.samplemobius.RecyclerView
 
 import android.os.Parcelable
-import com.example.samplemobius.RecylerView.Adapter.ViewItem
+import com.example.samplemobius.RecyclerView.Adapter.ViewItem
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize

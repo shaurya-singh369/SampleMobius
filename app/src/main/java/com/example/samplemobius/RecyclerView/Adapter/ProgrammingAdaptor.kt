@@ -1,10 +1,9 @@
-package com.example.samplemobius.RecylerView.Adapter
+package com.example.samplemobius.RecyclerView.Adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.samplemobius.R
@@ -41,4 +40,5 @@ class ProgrammingAdaptor:ListAdapter<ViewItem,ProgrammingAdaptor.ProgrammingView
             return oldItem==newItem
         }
     }
+
 }
